@@ -1,0 +1,46 @@
+/* === Body Styles === */
+body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(ellipse at center, #000015 0%, #000000 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  /* === Canvas Styles === */
+  canvas {
+    display: block;
+    margin: 0 auto;
+    background: url('https://i.imgur.com/0fYdPp4.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  /* === Game Over Screen Styles === */
+  #gameOver {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+  
+  /* === Hidden Class === */
+  .hidden {
+    display: none;
+  }
+  
+  /* === Button Styles === */
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #6a00ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #9a00ff;
+  }
+  
